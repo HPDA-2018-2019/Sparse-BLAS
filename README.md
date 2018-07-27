@@ -69,7 +69,9 @@ Installation Instructions
 
 (1) In the ```Makefile```, edit the variable ```CUDA_INSTALL_PATH``` to match the CUDA installation directory and ```CUDA_SAMPLES_PATH``` to match the directory of CUDA samples that were installed with CUDA.
 
-(2) Type ```make``` to compile the library and tests.
+(2) Add ```<CUDA installation directory>/bin``` to the system's $PATH environment variable.
+
+(3) Type ```make``` to compile the library and tests.
 
 Test Cases
 ----------
