@@ -22,11 +22,6 @@ Project Overview
 
 **Release Number:** 1.0
 
-Detailed Summary
-----------------
-
-_Include the purpose of the research and an explanation of what it does from a high level._
-
 Installation Guide
 ==================
 
