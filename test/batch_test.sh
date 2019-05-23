@@ -1,6 +1,11 @@
 #!/bin/bash
 
-NGPU=8
+if [ $1 -gt 0 ]
+then
+  NGPU=$1
+else
+  NGPU=8
+fi
 KERNEL=1
 
 ./test_spmv g 10000 $NGPU 10 $KERNEL
